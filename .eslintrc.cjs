@@ -21,3 +21,4 @@ module.exports = {
     "react/no-unescaped-entities": "off",
   },
 };
+module.exports = {   env: { node: true },}
