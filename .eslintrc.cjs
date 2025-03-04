@@ -1,3 +1,4 @@
+// filepath: /d:/React Course/ultimate-react-course-main/16-fast-react-pizza/amg-starter/.eslintrc.cjs
 module.exports = {
   root: true,
   env: { browser: true, es2020: true },
@@ -21,4 +22,3 @@ module.exports = {
     "react/no-unescaped-entities": "off",
   },
 };
-module.exports = {   env: { node: true },}
