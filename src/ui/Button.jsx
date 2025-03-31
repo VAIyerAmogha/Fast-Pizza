@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Button({ children, disabled, to, type, onClick }) {
+export function Button({ children, disabled, to, type, onClick }) {
   const base =
     "text-semibold text-sm duration-300ms inline-block rounded-full bg-yellow-400 uppercase text-stone-800 transition-colors hover:bg-yellow-300 focus:bg-yellow-300 focus:outline-none focus:ring focus:ring-yellow-300 focus:ring-offset-2 disabled:cursor-not-allowed";
 
@@ -34,5 +34,3 @@ function Button({ children, disabled, to, type, onClick }) {
     </button>
   );
 }
-
-export default Button;
